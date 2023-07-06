@@ -10,16 +10,16 @@ To use these queries, you'll need to have an instance of Metabase running and ha
 
 Each SQL file in this repository represents a different monitoring query. Below are brief descriptions of each:
 
-- **Median Query Execution Time**: Provides the median and maximum execution time for each query in the system.
-- **Query Frequency by Day, Week, and Hour**: Measures the frequency of queries run on the system by the day of the week and the hour.
-- **Dashboard Activity by Topic**: Summarizes the activities performed on each dashboard.
-- **Query Performance Clustering**: Groups queries into clusters based on their execution times.
-- **User Activity Metrics**: Measures the number of questions viewed and the number of active days for each user.
-- **Identifying Broken Queries**: Lists all the broken queries along with the error messages, creators, and the last queried times.
-- **Most Updated Queries Analysis**: Provides information on the most frequently updated queries.
-- **No Execution Queries Identification**: Lists queries that have not been executed recently.
-- **Tool Spot Metrics**: Detailed log of specific query usage.
-- **Dashboard Usage Statistics**: Show usage statistics for each dashboard, including user and view count.
+- **[Median Query Execution Time](./median_query_execution_time.sql)**: Provides the median and maximum execution time for each query in the system.
+- **[Query Frequency by Day, Week, and Hour](./query_frequency_by_day_week_hour.sql)**: Measures the frequency of queries run on the system by the day of the week and the hour.
+- **[Dashboard Activity by Topic](./dashboard_activity_by_topic.sql)**: Summarizes the activities performed on each dashboard.
+- **[Query Performance Clustering](./query_performance_clustering.sql)**: Groups queries into clusters based on their execution times.
+- **[User Activity Metrics](./user_activity_metrics.sql)**: Measures the number of questions viewed and the number of active days for each user.
+- **[Identifying Broken Queries](./identifying_broken_queries.sql)**: Lists all the broken queries along with the error messages, creators, and the last queried times.
+- **[Most Updated Queries Analysis](./most_updated_queries_analysis.sql)**: Provides information on the most frequently updated queries.
+- **[No Execution Queries Identification](./no_execution_queries_identification.sql)**: Lists queries that have not been executed recently.
+- **[Tool Spot Metrics](./tool_spot_metrics.sql)**: Detailed log of specific query usage.
+- **[Dashboard Usage Statistics](./dashboard_usage_statistics.sql)**: Show usage statistics for each dashboard, including user and view count.
 
 ## Contributing
 
