@@ -11,15 +11,15 @@ To use these queries, you'll need to have an instance of Metabase running and ha
 Each SQL file in this repository represents a different monitoring query. Below are brief descriptions of each:
 
 - **Median Query Execution Time**: Provides the median and maximum execution time for each query in the system.
-*- *Query Frequency by Day, Week, and Hour**: Measures the frequency of queries run on the system by the day of the week and the hour.
-**- Dashboard Activity by Topic**: Summarizes the activities performed on each dashboard.
-**- Query Performance Clustering**: Groups queries into clusters based on their execution times.
-**- User Activity Metrics**: Measures the number of questions viewed and the number of active days for each user.
-**- Identifying Broken Queries**: Lists all the broken queries along with the error messages, creators, and the last queried times.
-**- Most Updated Queries Analysis**: Provides information on the most frequently updated queries.
-**- No Execution Queries Identification**: Lists queries that have not been executed recently.
-**- Tool Spot Metrics**: Detailed log of specific query usage.
-- Dashboard Usage Statistics**: Show usage statistics for each dashboard, including user and view count.
+- **Query Frequency by Day, Week, and Hour**: Measures the frequency of queries run on the system by the day of the week and the hour.
+- **Dashboard Activity by Topic**: Summarizes the activities performed on each dashboard.
+- **Query Performance Clustering**: Groups queries into clusters based on their execution times.
+- **User Activity Metrics**: Measures the number of questions viewed and the number of active days for each user.
+- **Identifying Broken Queries**: Lists all the broken queries along with the error messages, creators, and the last queried times.
+- **Most Updated Queries Analysis**: Provides information on the most frequently updated queries.
+- **No Execution Queries Identification**: Lists queries that have not been executed recently.
+- **Tool Spot Metrics**: Detailed log of specific query usage.
+- **Dashboard Usage Statistics**: Show usage statistics for each dashboard, including user and view count.
 
 ## Contributing
 
