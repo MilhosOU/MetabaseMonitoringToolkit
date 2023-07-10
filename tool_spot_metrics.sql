@@ -7,6 +7,4 @@ select distinct
 from public.view_log
 inner join public.report_card on (public.view_log.model_id = public.report_card.id)
 inner join public.core_user on (public.view_log.user_id = public.core_user.id)
-where 1 = 1
-and public.report_card.id = {{ query_id }}
 order by 1 desc
