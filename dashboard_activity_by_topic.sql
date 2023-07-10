@@ -1,7 +1,7 @@
 select 
-	r.name,
-	a.topic,
-	count(*)
+  r.name,
+  a.topic,
+  count(*)
 from activity a
 left join core_user c on (a.user_id = c.id)
 left join report_dashboard r on (a.model_id = r.id)
